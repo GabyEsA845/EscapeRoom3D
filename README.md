@@ -1,5 +1,5 @@
 # Escape Room 3D 
-Proyecto colaborativo de laboratorio...
+Proyecto colaborativo de laboratorio Unity + Github + VScode
 ## Integrantes - Gabriel Marcelo Espinoza Angulo -
 ## Ramas - main - Dev - Feature_PlayerMovement - Feature_Interaction - Feature_Animation - Feature_Puzzle 
 ## Objetivo 
