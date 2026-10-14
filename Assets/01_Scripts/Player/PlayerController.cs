@@ -3,19 +3,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
+    private PlayerInteraction interaction;
 
     private void Start()
     {
-        Debug.Log("Movement system active");
+        interaction = GetComponent<PlayerInteraction>();
+        Debug.Log("Movement system active. Interaction: " + (interaction != null));
     }
 
     private void Update()
     {
         Move();
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("Interaction key pressed");
-        }
     }
 
     private void Move()
