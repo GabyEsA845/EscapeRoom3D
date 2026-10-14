@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4014810916340342792, guid: 4ca273324c446fd468a2abce3e4d72cc, type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 330585545}
     - target: {fileID: 6785040148150979332, guid: 4ca273324c446fd468a2abce3e4d72cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -137,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6785040148150979332, guid: 4ca273324c446fd468a2abce3e4d72cc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6785040148150979332, guid: 4ca273324c446fd468a2abce3e4d72cc, type: 3}
       propertyPath: m_LocalRotation.w
