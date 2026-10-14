@@ -6,3 +6,7 @@ Proyecto colaborativo de laboratorio Unity + Github + VScode
 Explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de 
 salida.
 ## Flujo de ramas: <- main <- Dev <- Feature_*
+
+## Controles
+- WASD / flechas: mover al jugador
+- E: interactuar
