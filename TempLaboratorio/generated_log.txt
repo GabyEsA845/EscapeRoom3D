@@ -1,2 +1,0 @@
-Log generado automaticamente
-build=1791954121
