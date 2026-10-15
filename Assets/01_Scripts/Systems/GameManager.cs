@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
         Instance = this;
         Debug.Log("GameManager listo");
-        Initialize();
+        Instance.Initialize();
     }
 
     public void Initialize()
