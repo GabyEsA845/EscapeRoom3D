@@ -193,5 +193,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad5f0421f214d64287ff8225f30f1d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  interactionDistance: 15
+  interactionDistance: 20
   playerCamera: {fileID: 0}

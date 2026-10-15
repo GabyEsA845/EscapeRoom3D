@@ -10,3 +10,6 @@ salida.
 ## Controles
 - WASD / flechas: mover al jugador
 - E: interactuar
+
+## Puzzle
+- Busca la pista en la habitación para descubrir el código del cofre.
