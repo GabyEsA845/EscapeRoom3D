@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 
     public bool HasKey { get; private set; }
 
+    private int sessionsStarted;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -15,6 +17,13 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
+    }
+
+    public void Initialize()
+    {
+        sessionsStarted++;
+        HasKey = false;
+        Debug.Log("Partida inicializada. Sesión #" + sessionsStarted);
     }
 
     public void ObtainKey()
