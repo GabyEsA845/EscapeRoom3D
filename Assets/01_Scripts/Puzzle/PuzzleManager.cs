@@ -14,9 +14,9 @@ public class PuzzleManager : MonoBehaviour
         if (solved)
             return true;
 
-        if (string.IsNullOrEmpty(code) || code.Length != correctCode.Length)
+        if (string.IsNullOrEmpty(code) || code.Length != correctCode.Length || !IsNumeric(code))
         {
-            Debug.Log("El código debe tener " + correctCode.Length + " dígitos.");
+            Debug.Log("El código debe tener " + correctCode.Length + " dígitos numéricos.");
             return false;
         }
 
@@ -41,5 +41,15 @@ public class PuzzleManager : MonoBehaviour
 
         Debug.Log("Código incorrecto. Intentos restantes: " + (maxAttempts - attempts));
         return false;
+    }
+
+    private static bool IsNumeric(string value)
+    {
+        foreach (char c in value)
+        {
+            if (!char.IsDigit(c))
+                return false;
+        }
+        return true;
     }
 }
